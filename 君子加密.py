@@ -43,7 +43,7 @@ ENCRYPT_FILE_WHITELIST_ENABLED = False  # 是否启用加密文件白名单
 ENCRYPT_FOLDER_WHITELIST = []
 ENCRYPT_FOLDER_WHITELIST_ENABLED = False  # 是否启用加密文件夹白名单
 
-# 混淆内容（在entity或ui文件夹下的文件会添加此内容）
+# 混淆内容
 CONFUSION_CONTENT = """,{[
 "13":"\\u0071\\u0065\\u0077\\u0062\\u0074\\u0072\\u0077\\u0064","\\u201c\\u541b\\u5b50\\u52a0\\u5bc6\\u201d:\"\"\"},{"\\u563f\\u563f":"\\u55b5\\u9171\\u7684\\u817f\\u771f\\u597d\\u770b\\u55b5"},{"\\usdad\\udada\\udawda"}"ada"],"ada","aakks"]}}{}}}"""
 
@@ -372,4 +372,5 @@ def main():
     print("处理完成")
 
 if __name__ == '__main__':
+
     main()
